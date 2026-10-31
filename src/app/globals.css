@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #05080c;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: none;
+}
+
+canvas {
+  display: block;
+  touch-action: none;
+}
+
+input[type="range"] {
+  touch-action: auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+}
